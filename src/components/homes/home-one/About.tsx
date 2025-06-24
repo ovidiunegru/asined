@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Count from "../../common/Count";
 
@@ -14,16 +13,16 @@ interface DataType {
 
 const about_data: DataType = {
    sub_title: "About Us",
-   title: "Devoted to Delivering Top Notch Roofing Solutions",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   title: "Tradition and Innovation in Industrial Textiles & Plastics",
+   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of utilitarian products for protection, storage, and transport, made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
    feature_list: [
       {
          id: 1,
-         list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+         list: ["Industrial textile confections", "Plastics injection", "Custom product design"],
       },
       {
          id: 2,
-         list: ["300+ Successful Projects done", "Professional Engineers Provide", "Damage Roofing Repair"],
+         list: ["Over 50 product types", "Serving multiple industries", "Quality and reliability"],
       },
    ],
 }
@@ -54,8 +53,8 @@ const About = ({ style }: PropType) => {
                            <i className="icon-prize-1"></i>
                         </div>
                         <div className="content">
-                           <h3 className="mb-10"><span className="counter"><Count number={10} /></span>+</h3>
-                           <p>World Best Roofing Award Got</p>
+                           <h3 className="mb-10"><span className="counter"><Count number={30} /></span>+</h3>
+                           <p>Years of Experience</p>
                         </div>
                      </div>
                      <div className="shape-1" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-29.png)` }}></div>
@@ -90,7 +89,7 @@ const About = ({ style }: PropType) => {
                            </div>
                            <div className="content p-relative">
                               <span>Call Us Now</span>
-                              <h5><Link to="tel:2085550112">+208-555-0112</Link></h5>
+                              <h5><Link to="tel:+40722411446">+40 722 411 446</Link></h5>
                            </div>
                         </div>
                      </div>

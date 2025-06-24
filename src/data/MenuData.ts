@@ -1,4 +1,3 @@
-
 interface MenuItem {
     id: number;
     title: string;
@@ -30,8 +29,14 @@ const menu_data: MenuItem[] = [
     {
         id: 2,
         has_dropdown: false,
-        title: "About",
+        title: "About (legacy)",
         link: "/about",
+    },
+    {
+        id: 7,
+        has_dropdown: false,
+        title: "About Us",
+        link: "/about-us",
     },
     {
         id: 3,

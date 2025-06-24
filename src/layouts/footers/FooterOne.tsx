@@ -3,10 +3,10 @@ import Lightbox from "yet-another-react-lightbox"
 import { useState } from "react"
 
 const gallery_data: string[] = [
-   "/assets/imgs/footer/footer-1.png",
-   "/assets/imgs/footer/footer-2.png",
-   "/assets/imgs/footer/footer-3.png",
-   "/assets/imgs/footer/footer-4.png",
+   "/assets/imgs/service/service-1.jpg",
+   "/assets/imgs/service/service-2.jpg",
+   "/assets/imgs/service/service-3.jpg",
+   "/assets/imgs/project/project-1.jpg",
 ];
 
 const FooterOne = () => {

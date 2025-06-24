@@ -16,6 +16,7 @@ import BlogGridMain from '../pages/BlogGridMain';
 import BlogDetailsMain from '../pages/BlogDetailsMain';
 import ContactMain from '../pages/ContactMain';
 import ErrorMain from '../pages/ErrorMain';
+import AboutUsMain from '../pages/AboutUsMain';
 
 const AppNavigation = () => {
   return (
@@ -37,6 +38,7 @@ const AppNavigation = () => {
         <Route path="/blog-grid" element={<BlogGridMain />} />
         <Route path="/blog-details" element={<BlogDetailsMain />} />
         <Route path="/contact" element={<ContactMain />} />
+        <Route path="/about-us" element={<AboutUsMain />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
     </Router>

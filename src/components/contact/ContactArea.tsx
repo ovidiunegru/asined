@@ -14,22 +14,22 @@ const contact_data: DataType[] = [
       id: 1,
       icon: "fat fa-location-dot",
       title: "Location",
-      info: "4140 Parker. USA",
-      link: "",
+      info: "Bucuresti, str. General dr Severin nr 16, sector 6, Romania",
+      link: "https://maps.google.com/?q=Bucuresti,str.GeneraldrSeverinnr16,sector6",
    },
    {
       id: 2,
       icon: "fat fa-phone-volume",
-      title: "Call Us 7/24",
-      info: "+208-555-0112",
-      link: "tel:2085550112",
+      title: "Call Us",
+      info: "+40 722 411 446",
+      link: "tel:+40722411446",
    },
    {
       id: 3,
       icon: "fat fa-envelope",
-      title: "Make A quote",
-      info: "Info@gramen.com",
-      link: "mailto:Info@gramen.com",
+      title: "Email",
+      info: "office@asined.ro",
+      link: "mailto:office@asined.ro",
    },
 ];
 
@@ -57,8 +57,8 @@ const ContactArea = () => {
                <div className="col-xxl-8 col-xl-8 col-lg-8">
                   <div className="contact-page-form-area">
                      <div className="title-box mb-40 wow fadeInLeft" data-wow-delay=".5s">
-                        <span className="section-sub-title">LET’S TALK</span>
-                        <h3 className="section-title mt-10">Let’s Get in Touch</h3>
+                        <span className="section-sub-title">LET'S TALK</span>
+                        <h3 className="section-title mt-10">Let's Get in Touch</h3>
                      </div>
                      <div className="contact-page-form">
                         <ContactForm />

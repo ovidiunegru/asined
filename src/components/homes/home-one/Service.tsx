@@ -8,19 +8,19 @@ interface TabData {
 const tab_title: TabData[] = [
    {
       icon: "icon-roof-7",
-      title: "Modified Roofing",
+      title: "Sewing textile materials",
    },
    {
       icon: "icon-roof-2",
-      title: "Roof Installation",
+      title: "Laser cutting textile materials",
    },
    {
       icon: "icon-roof-8",
-      title: "Roof Cornering",
+      title: "Ultrasonic sewing textile materials",
    },
    {
       icon: "icon-roof-4",
-      title: "Roof Renovation",
+      title: "Plastics injection",
    },
 ];
 
@@ -36,30 +36,30 @@ const service_data: DataType[] = [
    {
       id: 1,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Modified Roofing",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Sewing textile materials",
+      desc: "We use different manual or mechanical procedures to make all the types of seams for the textile materials.",
+      list: ["Manual and mechanical sewing", "All types of seams", "Industrial textile expertise"],
    },
    {
       id: 2,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Roof Installation",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Laser cutting textile materials",
+      desc: "Laser cutting is a process without any contact between the laser cutter and material, thus precise cuts are achieved, without deforming the fabric.",
+      list: ["Contactless cutting", "Precise results", "No fabric deformation"],
    },
    {
       id: 3,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Roof Cornering",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Ultrasonic sewing textile materials",
+      desc: "Ensure a perfect bonding (even of very thin materials), is a versatile solution, which offers strengthened seams.",
+      list: ["Perfect bonding", "Versatile solution", "Strengthened seams"],
    },
    {
       id: 4,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Roof Renovation",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Plastics injection",
+      desc: "We have the technological capability to inject plastic parts into molds produced by customers or our own molds.",
+      list: ["Plastic part injection", "Custom or own molds", "Technological expertise"],
    },
 ];
 
@@ -85,7 +85,7 @@ const Service = ({ style }: PropType) => {
             <div className="service-tab-title-area mb-70">
                <div className="title-box wow fadeInLeft" data-wow-delay=".5s">
                   <span className="section-sub-title">WHAT WE DO</span>
-                  <h3 className="section-title mt-10 text-white p-relative">Delivering High Quality <br />Roof Services</h3>
+                  <h3 className="section-title mt-10 text-white p-relative">Delivering High Quality <br />Textile & Plastic Services</h3>
                </div>
                <Link className="primary-btn-4 btn-hover mt-20" to="/services">
                   all services &nbsp; | <i className="icon-right-arrow"></i>

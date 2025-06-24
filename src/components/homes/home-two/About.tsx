@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 interface DataType {
@@ -13,16 +12,16 @@ interface DataType {
 
 const about_data: DataType = {
    sub_title: "About Us",
-   title: "Experienced & Quality Roofing Services Providers",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   title: "Tradition and Innovation in Industrial Textiles & Plastics",
+   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of utilitarian products for protection, storage, and transport, made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
    feature_list: [
       {
          id: 1,
-         list: ["Accurate Testing Processes", "100% Satisfaction Guarantee"],
+         list: ["Industrial textile confections", "Plastics injection"],
       },
       {
          id: 2,
-         list: ["300+ Successful Projects done", "Professional Engineers Provide"],
+         list: ["Custom product design", "Quality and reliability"],
       },
    ],
 }

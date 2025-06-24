@@ -15,23 +15,23 @@ const banner_data: DataType[] = [
    {
       id: 1,
       thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
+      sub_title: "INDUSTRIAL TEXTILE & PLASTIC SOLUTIONS",
+      title: "Custom Textile & Plastic Products for Industry",
+      desc: (<>We design and manufacture a wide range of utilitarian products from industrial textiles and plastics, tailored to your needs.</>),
    },
    {
       id: 2,
       thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
+      sub_title: "QUALITY & INNOVATION",
+      title: "Advanced Sewing, Cutting, and Injection Services",
+      desc: (<>Benefit from our expertise in sewing, laser cutting, ultrasonic welding, and plastics injection for industrial applications.</>),
    },
    {
       id: 3,
       thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
+      sub_title: "EXPERIENCE & RELIABILITY",
+      title: "Trusted Partner for Industrial Solutions",
+      desc: (<>With decades of experience, Asined delivers quality products and services for clients in Romania and abroad.</>),
    },
 ]
 

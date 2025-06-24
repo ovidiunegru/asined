@@ -17,20 +17,20 @@ interface DataType {
 
 const about_data: DataType = {
    sub_title: "About Us",
-   title: "Devoted to Delivering Top Notch Roofing Solutions",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   title: "Tradition and Innovation in Industrial Textiles & Plastics",
+   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of utilitarian products for protection, storage, and transport, made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
    feature_list: [
       {
          id: 1,
-         icon: "icon-roof",
-         title: "Commercial Roofing",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         icon: "icon-factory",
+         title: "Industrial textile confections",
+         desc: "Products for protection, storage, and transport of goods and valuables.",
       },
       {
          id: 2,
-         icon: "icon-roof-9",
-         title: "Best Roofing Warranty",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         icon: "icon-box",
+         title: "Plastics injection",
+         desc: "Plastic parts for automotive, railway, and construction industries.",
       },
    ],
 }
