@@ -43,10 +43,10 @@ const About = ({ style }: PropType) => {
                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                   <div className="about-2-image-area p-relative wow fadeInLeft" data-wow-delay="500ms">
                      <figure className="main-image m-img">
-                        <img src="/assets/imgs/about/about-3.jpg" alt="" />
+                        <img src="/assets/imgs/about/confectii-1_resized.jpg" alt="" />
                      </figure>
                      <div className="small-image">
-                        <img src="/assets/imgs/about/about-4.jpg" alt="" />
+                        <img src="/assets/imgs/about/home-cat-img_resized.jpg" alt="" />
                      </div>
                      <div className="icon-box">
                         <div className="icon">

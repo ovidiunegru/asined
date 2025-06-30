@@ -21,7 +21,7 @@ const HeaderOne = () => {
                         <div className="header-left">
                            <div className="header-logo">
                               <Link to="/">
-                                 <img src="/assets/imgs/logo/asined-logo.png" alt="header logo" />
+                                 <img src="/assets/imgs/logo/asined-logo-white.png" alt="header logo" />
                               </Link>
                            </div>
                         </div>
@@ -65,7 +65,7 @@ const HeaderOne = () => {
                                  </div>
                                  <div className="content">
                                     <span>Call Us Now</span>
-                                    <h6><Link to="tel:2085550112">+208-555-0112</Link></h6>
+                                    <h6><Link to="tel:2085550112">+40-722-411-446</Link></h6>
                                  </div>
                               </div>
                            </div>

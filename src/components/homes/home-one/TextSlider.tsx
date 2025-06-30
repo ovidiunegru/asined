@@ -1,4 +1,11 @@
-const text_slider: string[] = ["ROOF RENOVATION", "MODIFIED ROOFING", "ROOF INSTALLATION", "ROOF RENOVATION", "MODIFIED ROOFING", "ROOF INSTALLATION"];
+const text_slider: string[] = [
+   "CUSTOM TEXTILE SOLUTIONS",
+   "PLASTIC FABRICATION EXPERTISE",
+   "PRECISION ENGINEERING",
+   "TEXTILE MANUFACTURING",
+   "CUSTOM PLASTIC PRODUCTS",
+   "INDUSTRIAL TEXTILE PRODUCTS"
+];
 
 interface PropType {
    style: boolean;
@@ -20,7 +27,7 @@ const TextSlider = ({ style }: PropType) => {
             </div>
          </div>
       </section>
-   )
-}
+   );
+};
 
-export default TextSlider
+export default TextSlider;

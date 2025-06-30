@@ -1,26 +1,27 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 interface TabData {
    icon: string;
    title: string;
 }
+
 const tab_title: TabData[] = [
    {
-      icon: "icon-roof-7",
-      title: "Sewing textile materials",
+      icon: "icon-roof-7", // TODO: Foloseste alte icons
+      title: "Sewing Services",
    },
    {
-      icon: "icon-roof-2",
-      title: "Laser cutting textile materials",
+      icon: "icon-roof-2", 
+      title: "Laser Cutting Services",
    },
    {
-      icon: "icon-roof-8",
-      title: "Ultrasonic sewing textile materials",
+      icon: "icon-roof-8", 
+      title: "Ultrasonic Welding",
    },
    {
-      icon: "icon-roof-4",
-      title: "Plastics injection",
+      icon: "icon-roof-4", 
+      title: "Plastic Injection Molding",
    },
 ];
 
@@ -35,31 +36,51 @@ interface DataType {
 const service_data: DataType[] = [
    {
       id: 1,
-      thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Sewing textile materials",
-      desc: "We use different manual or mechanical procedures to make all the types of seams for the textile materials.",
-      list: ["Manual and mechanical sewing", "All types of seams", "Industrial textile expertise"],
+      thumb: "/assets/imgs/resources/video_Coasere.mp4",  // Add appropriate image paths
+      title: "Industrial Textile Sewing",
+      desc: "We provide high-quality sewing services for industrial textiles, creating durable seams for a range of industrial applications.",
+      list: [
+         "Manual and machine sewing",
+         "Custom textile stitching",
+         "Industrial-grade threads",
+         "Safety and durability ensured"
+      ],
    },
    {
       id: 2,
-      thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Laser cutting textile materials",
-      desc: "Laser cutting is a process without any contact between the laser cutter and material, thus precise cuts are achieved, without deforming the fabric.",
-      list: ["Contactless cutting", "Precise results", "No fabric deformation"],
+      thumb: "/assets/imgs/resources/video_Debitare.mp4",
+      title: "Laser Cutting of Textiles",
+      desc: "Our laser cutting technology allows for precise, contactless cutting of textiles, maintaining fabric integrity.",
+      list: [
+         "Contactless cutting technology",
+         "Precise, clean edges",
+         "Suitable for complex shapes",
+         "No fabric distortion"
+      ],
    },
    {
       id: 3,
-      thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Ultrasonic sewing textile materials",
-      desc: "Ensure a perfect bonding (even of very thin materials), is a versatile solution, which offers strengthened seams.",
-      list: ["Perfect bonding", "Versatile solution", "Strengthened seams"],
+      thumb: "/assets/imgs/resources/ultrasonic-sewing-service.jpg",
+      title: "Ultrasonic Textile Bonding",
+      desc: "Using ultrasonic technology, we ensure seamless bonding of textiles, perfect for high-precision applications.",
+      list: [
+         "Seamless ultrasonic bonding",
+         "No stitching required",
+         "Suitable for delicate fabrics",
+         "High-strength seams"
+      ],
    },
    {
       id: 4,
-      thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Plastics injection",
-      desc: "We have the technological capability to inject plastic parts into molds produced by customers or our own molds.",
-      list: ["Plastic part injection", "Custom or own molds", "Technological expertise"],
+      thumb: "/assets/imgs/resources/video_Plastic.mp4",
+      title: "Plastic Injection Molding",
+      desc: "We offer plastic injection molding for custom plastic parts, suitable for a wide range of industrial applications.",
+      list: [
+         "Custom molds and designs",
+         "High-precision injection",
+         "Durable plastic parts",
+         "Versatile molding options"
+      ],
    },
 ];
 
@@ -68,7 +89,6 @@ interface PropType {
 }
 
 const Service = ({ style }: PropType) => {
-
    const [activeTab, setActiveTab] = useState(0);
 
    // Handle tab click event
@@ -88,7 +108,7 @@ const Service = ({ style }: PropType) => {
                   <h3 className="section-title mt-10 text-white p-relative">Delivering High Quality <br />Textile & Plastic Services</h3>
                </div>
                <Link className="primary-btn-4 btn-hover mt-20" to="/services">
-                  all services &nbsp; | <i className="icon-right-arrow"></i>
+                  All Services &nbsp; | <i className="icon-right-arrow"></i>
                   <span style={{ top: "147.172px", left: "108.5px" }}></span>
                </Link>
             </div>
@@ -119,7 +139,14 @@ const Service = ({ style }: PropType) => {
                               <div className="service-tab-content p-relative">
                                  {!style && <div className="tab-bg-shape" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-32.png)` }}></div>}
                                  <figure className="image p-relative">
-                                    <img src={item.thumb} alt="" />
+                                    {item.thumb.endsWith('.mp4') ? (
+                                       <video width="100%" height="100%" autoPlay loop muted>
+                                          <source src={item.thumb} type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                       </video>
+                                    ) : (
+                                       <img src={item.thumb} alt={item.title} />
+                                    )}
                                  </figure>
                                  <div className="content p-relative">
                                     <h4>{item.title}</h4>
@@ -146,4 +173,4 @@ const Service = ({ style }: PropType) => {
    )
 }
 
-export default Service
+export default Service;

@@ -1,18 +1,18 @@
 
 const HelpForm = () => {
    return (
-      <section className="help-form-section section-space-small p-relative" style={{ backgroundImage: `url(/assets/imgs/bg/help-bg.png)` }}>
+      <section className="help-form-section section-space-small p-relative" style={{ backgroundImage: `url(/assets/imgs/bg/help_2_resized.png)` }}>
          <div className="bg-shape" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-38.png)` }}></div>
          <div className="small-container">
             <div className="row">
                <div className="col-xxl-4 col-xl-4 col-lg-4">
                   <div className="image-area w-img">
-                     <img src="/assets/imgs/resources/help-form.png" alt="" />
+                     <img src="/assets/imgs/resources/help_1_resized.png" alt="" />
                   </div>
                </div>
                <div className="col-xxl-8 col-xl-8 col-lg-8">
                   <div className="help-form-area">
-                     <h3 className="section-title mb-40 text-white">Need Any Roofing Help?</h3>
+                     <h3 className="section-title mb-40 text-white">Looking for Custom Mold Solutions or Plastic Parts?</h3>
                      <div className="inner p-relative">
                         <form onSubmit={(e) => e.preventDefault()}>
                            <div className="row">

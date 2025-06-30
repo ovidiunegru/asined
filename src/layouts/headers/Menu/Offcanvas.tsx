@@ -18,7 +18,7 @@ const Offcanvas = ({ style, offCanvas, setOffCanvas }: MobileSidebarProps) => {
                      <div className="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
                         <div className="offcanvas__logo">
                            <Link to="/dashboard">
-                              <img src="/assets/imgs/logo/logo-white.svg" alt="Header Logo" />
+                              <img src="/assets/imgs/logo/asined-logo-white.png" alt="Header Logo" />
                            </Link>
                         </div>
                         <div className="offcanvas__close">
