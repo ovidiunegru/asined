@@ -10,29 +10,30 @@ interface DataType {
 const feature_data: DataType[] = [
    {
       id: 1,
-      icon: "icon-hammer",
-      title: "Expert Engineer",
-      desc: "Nullam dictum ut est nune of malesuada ornare is aliquam eget lacinia mauris.",
+      icon: "icon-hammer", // icons specifice nu de acoperis generate pe envato sau cu ai
+      title: "Expert Engineering Solutions",
+      desc: "Our skilled engineers deliver innovative, high-quality custom solutions for industrial textiles and plastics, ensuring quality and precision for every project.",
    },
    {
       id: 2,
-      icon: "icon-roof-5",
-      title: "Quality Material",
-      desc: "Nullam dictum ut est nune of malesuada ornare is aliquam eget lacinia mauris.",
+      icon: "icon-roof-5", // icons specifice nu de acoperis generate pe envato sau cu ai
+      title: "High-Quality Materials",
+      desc: "We use only premium, high-performance materials to craft durable, reliable products designed for protection, storage, and efficient transport of goods.",
    },
    {
       id: 3,
-      icon: "icon-roof-6",
-      title: "24/7 Support",
-      desc: "Nullam dictum ut est nune of malesuada ornare is aliquam eget lacinia mauris.",
+      icon: "icon-roof-6", // icons specifice nu de acoperis generate pe envato sau cu ai
+      title: "Custom Textile Products",
+      desc: "We specialize in custom textile manufacturing, delivering tailored solutions for industrial applications, including protective fabrics and gear.",
    },
    {
       id: 4,
-      icon: "icon-roof-7",
-      title: "Roof Renovation",
-      desc: "Nullam dictum ut est nune of malesuada ornare is aliquam eget lacinia mauris.",
+      icon: "icon-roof-7", // icons specifice nu de acoperis generate pe envato sau cu ai
+      title: "Custom Plastic Products",
+      desc: "Our expertise in plastic fabrication lets us create durable, tailored products for various industries, from protective coverings to storage solutions.",
    },
 ]
+
 
 interface PropType {
    style: boolean;

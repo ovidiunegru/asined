@@ -17,7 +17,7 @@ const Cta = () => {
                         <i className="fal fa-phone-volume"></i>
                      </div>
                      <h3 className="mb-15">Need Any Roofing Help?</h3>
-                     <h5><Link to="tel:2085550112">+208-555-0112</Link></h5>
+                     <h5><Link to="tel:2085550112">+40-722-411-446</Link></h5>
                   </div>
                </div>
             </div>

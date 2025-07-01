@@ -8,21 +8,21 @@ interface Datatype {
 const process_data: Datatype[] = [
    {
       id: 1,
-      icon: "icon-dollar-tag",
-      title: "Roof Planning",
-      desc: "In a free hour, when our power of choice is untrammelled and when nothing prevents dolor sit amet, consectetur",
+      icon: "icon-dollar-tag", // TODO: Planning icon
+      title: "Custom Product Design",
+      desc: "We collaborate with clients to design tailored solutions using industrial textiles and plastics, ensuring every product meets the specific requirements of your industry.",
    },
    {
       id: 2,
       icon: "icon-engineer",
-      title: "Roof Installation",
-      desc: "In a free hour, when our power of choice is untrammelled and when nothing prevents dolor sit amet, consectetur",
+      title: "Precision Manufacturing",
+      desc: "Our skilled engineers and craftsmen turn design concepts into reality using advanced techniques like sewing, laser cutting, and plastic injection molding for high-quality results.",
    },
    {
       id: 3,
-      icon: "icon-home",
-      title: "Finished Roof",
-      desc: "In a free hour, when our power of choice is untrammelled and when nothing prevents dolor sit amet, consectetur",
+      icon: "icon-home",//done icon
+      title: "Quality Control & Delivery",
+      desc: "After rigorous testing, we ensure that each product meets industrial standards before delivering it to our clients. Our commitment is to provide durable, high-performance solutions.",
    },
 ];
 
@@ -36,8 +36,8 @@ const Process = ({ style }: PropType) => {
          <div className="shape-1" style={{ backgroundImage: `url(${style ? "/assets/imgs/shapes/shape-52.png" : "/assets/imgs/bg/line.png"})` }}></div>
          <div className="small-container">
             <div className="title-box text-center mb-60 wow fadeInLeft" data-wow-delay=".5s">
-               <span className="section-sub-title">Working Process</span>
-               <h3 className="section-title mt-10">Standard Work Process</h3>
+               <span className="section-sub-title">Our Approach</span>
+               <h3 className="section-title mt-10">Tailored Process for Textile & Plastic Solutions</h3>
             </div>
             <div className="row g-4">
                {process_data.map((item) => (
@@ -57,7 +57,7 @@ const Process = ({ style }: PropType) => {
             </div>
          </div>
       </section>
-   )
-}
+   );
+};
 
-export default Process
+export default Process;

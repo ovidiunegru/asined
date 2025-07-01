@@ -35,12 +35,10 @@ const FooterOne = () => {
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-1">
                               <figure className="image">
-                                 <img src="/assets/imgs/logo/logo-white.svg" alt="" />
+                                 <img src="/assets/imgs/logo/asined-logo-white.png" alt="" />
                               </figure>
                               <p className="mt-40 mb-30">
-                                 Phasellus ultricies aliquam volutpat
-                                 ullamcorper laoreet neque, a lacinia
-                                 curabitur lacinia mollis
+                                 The Asined Automotive company is focusing its efforts towards designing and making a wide range of products with a utilitarian purpose, manufactured from industrial textile confections and plastics.
                               </p>
                               <div className="working-hours">
                                  <h6 className="text-white mb-20">Working Hours:</h6>
@@ -67,11 +65,10 @@ const FooterOne = () => {
                            <div className="footer-widget-2 pl-50">
                               <h4 className="mb-30 footer-title">Our Services</h4>
                               <ul className="service-list">
-                                 <li><Link to="/service-details">Damage Roofing</Link></li>
-                                 <li><Link to="/service-details">Roof Repair</Link></li>
-                                 <li><Link to="/service-details">Roof Installation</Link></li>
-                                 <li><Link to="/service-details">Roof Animation</Link></li>
-                                 <li><Link to="/service-details">Modified Roofing</Link></li>
+                                 <li><Link to="/service-details">Sewing textile materials</Link></li>
+                                 <li><Link to="/service-details">Laser cutting</Link></li>
+                                 <li><Link to="/service-details">Ultrasonic sewing</Link></li>
+                                 <li><Link to="/service-details">Plastics injection</Link></li>
                               </ul>
                            </div>
                         </div>

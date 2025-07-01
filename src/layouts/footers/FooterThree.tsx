@@ -35,7 +35,7 @@ const FooterThree = () => {
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-1">
                               <figure className="image">
-                                 <img src="/assets/imgs/logo/logo-white.svg" alt="" />
+                                 <img src="/assets/imgs/logo/asined-logo-white.png" alt="" />
                               </figure>
                               <p className="mt-40 mb-40">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
                               <div className="footer-socials">

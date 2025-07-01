@@ -14,25 +14,25 @@ interface DataType {
 const banner_data: DataType[] = [
    {
       id: 1,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "INDUSTRIAL TEXTILE & PLASTIC SOLUTIONS",
-      title: "Custom Textile & Plastic Products for Industry",
-      desc: (<>We design and manufacture a wide range of utilitarian products from industrial textiles and plastics, tailored to your needs.</>),
+      thumb: "assets/imgs/banner/asined-video.mp4",
+      sub_title: "INDUSTRIAL TEXTILE",
+      title: "Industrial textile confections",
+      desc: (<>Tailored solutions for protecting, storing, and transporting goods and materials in industrial environments.</>),
    },
    {
       id: 2,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "QUALITY & INNOVATION",
-      title: "Advanced Sewing, Cutting, and Injection Services",
+      thumb: "assets/imgs/banner/asined-video.mp4",
+      sub_title: "PLASTIC SOLUTIONS",
+      title: "Advanced Sewing, Cutting and Injection",
       desc: (<>Benefit from our expertise in sewing, laser cutting, ultrasonic welding, and plastics injection for industrial applications.</>),
    },
-   {
-      id: 3,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "EXPERIENCE & RELIABILITY",
-      title: "Trusted Partner for Industrial Solutions",
-      desc: (<>With decades of experience, Asined delivers quality products and services for clients in Romania and abroad.</>),
-   },
+   // {
+   //    id: 3,
+   //    thumb: "assets/imgs/banner/asined-video.mp4",
+   //    sub_title: "EXPERIENCE & RELIABILITY",
+   //    title: "Trusted Partner for Industrial Solutions",
+   //    desc: (<>With decades of experience, Asined delivers quality products and services for clients in Romania and abroad.</>),
+   // },
 ]
 
 const setting = {
@@ -57,7 +57,11 @@ const Banner = () => {
          <Swiper {...setting} modules={[Autoplay, Pagination, EffectFade]} className="swiper banner-active">
             {banner_data.map((item) => (
                <SwiperSlide key={item.id} className="swiper-slide">
-                  <div className="banner-main-2" style={{ backgroundImage: `url(${item.thumb})` }}>
+                  <div className="banner-main-2">
+                     <video className="banner-video" autoPlay loop muted playsInline>
+                        <source src={item.thumb} type="video/mp4" />
+                        Your browser does not support the video tag.
+                     </video>
                      <div className="large-container">
                         <div className="banner-area-2 p-relative z-3 wow img-custom-anim-left animated" data-wow-delay="1000ms">
                            <span className="p-relative banner-sub-title">{item.sub_title}</span>
