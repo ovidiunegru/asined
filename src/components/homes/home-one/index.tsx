@@ -23,7 +23,7 @@ const HomeOne = () => {
         <Service style={false} />
         <Process style={false} />
         <TextSlider style={false}/>
-        <Project style={false} />
+        {/* <Project style={false} /> */}
         <Testimonial />
         <Counter style={false} />
         <HelpForm />

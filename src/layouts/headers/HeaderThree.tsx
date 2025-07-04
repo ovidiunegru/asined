@@ -67,7 +67,7 @@ const HeaderThree = () => {
                                  </div>
                                  <div className="content">
                                     <span>Call Us Now</span>
-                                    <h6><Link to="tel:2085550112">+40-722-411-446</Link></h6>
+                                    <h6><Link to="tel:2085550112">+40 722 411 446</Link></h6>
                                  </div>
                               </div>
                            </div>

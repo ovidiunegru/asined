@@ -14,15 +14,15 @@ interface DataType {
 const about_data: DataType = {
    sub_title: "About Us",
    title: "Tradition and Innovation in Industrial Textiles & Plastics",
-   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of utilitarian products for protection, storage, and transport, made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
+   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of products made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
    feature_list: [
       {
          id: 1,
-         list: ["Industrial textile confections", "Plastics injection", "Custom product design"],
+         list: ["Industrial textile confections", "Plastics injection"],
       },
       {
          id: 2,
-         list: ["Over 50 product types", "Serving multiple industries", "Quality and reliability"],
+         list: ["Custom product design", "Quality and reliability"],
       },
    ],
 }
@@ -43,10 +43,10 @@ const About = ({ style }: PropType) => {
                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                   <div className="about-2-image-area p-relative wow fadeInLeft" data-wow-delay="500ms">
                      <figure className="main-image m-img">
-                        <img src="/assets/imgs/about/confectii-1_resized.jpg" alt="" />
+                        <img src="/assets/imgs/about/masina-de-cusut_resized.jpg" alt="" />
                      </figure>
                      <div className="small-image">
-                        <img src="/assets/imgs/about/home-cat-img_resized.jpg" alt="" />
+                        <img src="/assets/imgs/about/modling_resized.png" alt="" />
                      </div>
                      <div className="icon-box">
                         <div className="icon">
@@ -66,7 +66,7 @@ const About = ({ style }: PropType) => {
                         <span className="section-sub-title">{sub_title}</span>
                         <h3 className="section-title mt-10">{title}</h3>
                      </div>
-                     <p className="mb-35">{desc}</p>
+                     <p style={{fontSize:'20px'}} className="mb-35">{desc}</p>
                      <div className="row mb-45">
                         {feature_list.map((item) => (
                            <div key={item.id} className="col-lg-6">

@@ -15,17 +15,17 @@ const banner_data: DataType[] = [
    {
       id: 1,
       thumb: "assets/imgs/banner/asined-video.mp4",
-      sub_title: "INDUSTRIAL TEXTILE",
-      title: "Industrial textile confections",
-      desc: (<>Tailored solutions for protecting, storing, and transporting goods and materials in industrial environments.</>),
+      sub_title: "WHAT WE DO",
+      title: "Industrial Textile Manufacturing & Plastic Molding",
+      desc: (<>Innovative manufacturing solutions designed to enhance durability, efficiency, and safety in industrial logistics and production workflows.</>),
    },
-   {
-      id: 2,
-      thumb: "assets/imgs/banner/asined-video.mp4",
-      sub_title: "PLASTIC SOLUTIONS",
-      title: "Advanced Sewing, Cutting and Injection",
-      desc: (<>Benefit from our expertise in sewing, laser cutting, ultrasonic welding, and plastics injection for industrial applications.</>),
-   },
+   // {
+   //    id: 2,
+   //    thumb: "assets/imgs/banner/asined-video.mp4",
+   //    sub_title: "PLASTIC SOLUTIONS",
+   //    title: "Advanced Sewing, Cutting and Injection",
+   //    desc: (<>Benefit from our expertise in sewing, laser cutting, ultrasonic welding, and plastics injection for industrial applications.</>),
+   // },
    // {
    //    id: 3,
    //    thumb: "assets/imgs/banner/asined-video.mp4",

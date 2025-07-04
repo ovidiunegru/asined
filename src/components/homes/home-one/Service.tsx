@@ -12,17 +12,17 @@ const tab_title: TabData[] = [
       title: "Sewing Services",
    },
    {
-      icon: "icon-roof-2", 
-      title: "Laser Cutting Services",
-   },
-   {
-      icon: "icon-roof-8", 
-      title: "Ultrasonic Welding",
-   },
-   {
-      icon: "icon-roof-4", 
+      icon: "icon-roof-4",
       title: "Plastic Injection Molding",
    },
+   // {
+   //    icon: "icon-roof-2",
+   //    title: "Laser Cutting Services",
+   // },
+   // {
+   //    icon: "icon-roof-8",
+   //    title: "Ultrasonic Welding",
+   // },
 ];
 
 interface DataType {
@@ -36,9 +36,9 @@ interface DataType {
 const service_data: DataType[] = [
    {
       id: 1,
-      thumb: "/assets/imgs/resources/video_Coasere.mp4",  // Add appropriate image paths
-      title: "Industrial Textile Sewing",
-      desc: "We provide high-quality sewing services for industrial textiles, creating durable seams for a range of industrial applications.",
+      thumb: "/assets/imgs/resources/coasere.mp4",  // Add appropriate image paths
+      title: "Industrial Textile Manufactuaring",
+      desc: "Precision sewing solutions tailored for industrial textiles, delivering robust seams designed to withstand demanding operational environments.",
       list: [
          "Manual and machine sewing",
          "Custom textile stitching",
@@ -46,33 +46,33 @@ const service_data: DataType[] = [
          "Safety and durability ensured"
       ],
    },
+   // {
+   //    id: 2,
+   //    thumb: "/assets/imgs/resources/video_Debitare.mp4",
+   //    title: "Laser Cutting of Textiles",
+   //    desc: "Our laser cutting technology allows for precise, contactless cutting of textiles, maintaining fabric integrity.",
+   //    list: [
+   //       "Contactless cutting technology",
+   //       "Precise, clean edges",
+   //       "Suitable for complex shapes",
+   //       "No fabric distortion"
+   //    ],
+   // },
+   // {
+   //    id: 3,
+   //    thumb: "/assets/imgs/resources/ultrasonic-sewing-service.jpg",
+   //    title: "Ultrasonic Textile Bonding",
+   //    desc: "Using ultrasonic technology, we ensure seamless bonding of textiles, perfect for high-precision applications.",
+   //    list: [
+   //       "Seamless ultrasonic bonding",
+   //       "No stitching required",
+   //       "Suitable for delicate fabrics",
+   //       "High-strength seams"
+   //    ],
+   // },
    {
       id: 2,
-      thumb: "/assets/imgs/resources/video_Debitare.mp4",
-      title: "Laser Cutting of Textiles",
-      desc: "Our laser cutting technology allows for precise, contactless cutting of textiles, maintaining fabric integrity.",
-      list: [
-         "Contactless cutting technology",
-         "Precise, clean edges",
-         "Suitable for complex shapes",
-         "No fabric distortion"
-      ],
-   },
-   {
-      id: 3,
-      thumb: "/assets/imgs/resources/ultrasonic-sewing-service.jpg",
-      title: "Ultrasonic Textile Bonding",
-      desc: "Using ultrasonic technology, we ensure seamless bonding of textiles, perfect for high-precision applications.",
-      list: [
-         "Seamless ultrasonic bonding",
-         "No stitching required",
-         "Suitable for delicate fabrics",
-         "High-strength seams"
-      ],
-   },
-   {
-      id: 4,
-      thumb: "/assets/imgs/resources/video_Plastic.mp4",
+      thumb: "/assets/imgs/resources/plastic.mp4",
       title: "Plastic Injection Molding",
       desc: "We offer plastic injection molding for custom plastic parts, suitable for a wide range of industrial applications.",
       list: [
