@@ -3214,6 +3214,11 @@ transform: skewX(-25deg);
 /*----------------------------------------*/
 /*  SERVICE SLIDER CSS START
 /*----------------------------------------*/
+.service-sidebar ul li.active a {
+  color: #fff;
+  background: var(--theme-color);
+}
+
 
 .service-slider-section h3.section-title {
   color: #fff;

@@ -28,7 +28,7 @@ const AppNavigation = () => {
         <Route path="/dark-home" element={<DarkHomeMain />} />
         <Route path="/about" element={<AboutMain />} />
         <Route path="/services" element={<ServiceMain />} />
-        <Route path="/services-details" element={<ServiceDetailsMain />} />
+        <Route path="/services/:serviceName" element={<ServiceDetailsMain />} />
         <Route path="/projects" element={<ProjectMain />} />
         <Route path="/project-details" element={<ProjectDetailsMain />} />
         <Route path="/team" element={<TeamMain />} />

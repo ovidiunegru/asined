@@ -41,11 +41,12 @@ const menu_data: MenuItem[] = [
     {
         id: 3,
         title: "Services",
-        link: "#",
+        link: "/services/plastic-molding",
         has_dropdown: true,
         sub_menus: [
             { link: "/services", title: "Services" },
-            { link: "/services-details", title: "Services Details" },
+            { link: "/services/industrial-textile-manufacturing", title: "Industrial Textile Manufacturing" },
+            { link: "/services/plastic-molding", title: "Plastic Molding" }
         ],
     },
     {
