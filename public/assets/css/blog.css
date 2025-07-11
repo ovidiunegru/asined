@@ -435,6 +435,7 @@
 .rc__meta span svg, .rc__meta span i {
     margin-right: 6px;
 }
+
 .tagcloud a {
     display: inline-block;
     font-size: 14px;
@@ -448,6 +449,15 @@
 .tagcloud a:hover {
     background: var(--primary-color);
     color:#fff;
+}
+
+.tagcloud .selected {
+  color: #fff;
+  background: var(--primary-color);
+}
+
+.blog-widget-4 .tagcloud a {
+  transition: all 0.2s ease-in-out;
 }
 .postbox__features-title {
     font-size: 28px;

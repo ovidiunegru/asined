@@ -6902,6 +6902,15 @@ ul.team-member-socials-icon li:hover{
   color: #fff;
 }
 
+.blog-widget-2 ul.blog-categories-list li a.selected {
+  color: #fff;
+  background: var(--theme-color);
+}
+
+.blog-widget-2 ul.blog-categories-list li a {
+  transition: all 0.2s ease-in-out;
+}
+
 .blog-widget-2 ul.blog-categories-list li {
   margin-bottom: 16px;
 }
@@ -6948,6 +6957,15 @@ ul.team-member-socials-icon li:hover{
 .blog-widget-4 .tagcloud a:hover {
   color: #fff;
   background: var(--theme-color);
+}
+
+.blog-widget-4 .tagcloud a.selected {
+  color: #fff;
+  background: var(--theme-color);
+}
+
+.blog-widget-4 .tagcloud a {
+  transition: all 0.2s ease-in-out;
 }
 
 .blog-widget-4 .tagcloud a:nth-last-child(1),

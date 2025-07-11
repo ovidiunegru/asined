@@ -42,16 +42,6 @@ const HeaderThree = () => {
                                  </div>
                               </div>
                            </div>
-                           <div className="search-toggle-open header-search my-auto">
-                              <div onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-icon">
-                                 <i className="icon-search"></i>
-                              </div>
-                           </div>
-                           <div className="header-shopping-cart my-auto">
-                              <div className="cart-icon">
-                                 <Link to="#"><i className="icon-shopping-cart"></i></Link>
-                              </div>
-                           </div>
                            <div className="header-action d-none d-xl-inline-flex gap-5">
                               <div className="header-link">
                                  <Link className="primary-btn-1 btn-hover" to="/contact">

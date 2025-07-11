@@ -29,7 +29,7 @@ const about_data: DataType = {
       {
          id: 2,
          icon: "icon-box",
-         title: "Plastics injection",
+         title: "Plastics molding",
          desc: "Plastic parts for automotive, railway, and construction industries.",
       },
    ],
@@ -98,8 +98,8 @@ const About = () => {
                         </div>
                      ))}
                      <div className="about-btn-box wow fadeInLeft" data-wow-delay="1s">
-                        <Link className="primary-btn-1 btn-hover" to="/about">
-                           about us &nbsp; | <i className="icon-right-arrow"></i>
+                        <Link className="primary-btn-1 btn-hover" to="/about-us">
+                           read more &nbsp; | <i className="icon-right-arrow"></i>
                            <span style={{ top: "147.172px", left: "108.5px" }}></span>
                         </Link>
                      </div>

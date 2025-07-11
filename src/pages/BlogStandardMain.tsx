@@ -5,7 +5,7 @@ import BlogStandard from '../components/blogs/blog-standard';
 const BlogStandardMain = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Blog Standard'} />
+         <SEO pageTitle={'Blog Posts'} />
          <BlogStandard />
       </Wrapper>
    );
