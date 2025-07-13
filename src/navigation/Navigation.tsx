@@ -27,7 +27,7 @@ const AppNavigation = () => {
         <Route path="/home-three" element={<HomeThreeMain />} />
         <Route path="/dark-home" element={<DarkHomeMain />} />
         <Route path="/about" element={<AboutMain />} />
-        <Route path="/services" element={<ServiceMain />} />
+        {/* <Route path="/services" element={<ServiceMain />} /> */}
         <Route path="/services/:serviceName" element={<ServiceDetailsMain />} />
         <Route path="/projects" element={<ProjectMain />} />
         <Route path="/project-details" element={<ProjectDetailsMain />} />
@@ -35,7 +35,7 @@ const AppNavigation = () => {
         <Route path="/team-details" element={<TeamDetailsMain />} />
         <Route path="/faq" element={<FaqMain />} />
         <Route path="/blog-standard" element={<BlogStandardMain />} />
-        <Route path="/blog-grid" element={<BlogGridMain />} />
+        {/* <Route path="/blog-grid" element={<BlogGridMain />} /> */}
         <Route path="/blog-details" element={<BlogDetailsMain />} />
         <Route path="/contact" element={<ContactMain />} />
         <Route path="/about-us" element={<AboutUsMain />} />

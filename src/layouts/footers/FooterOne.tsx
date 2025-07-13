@@ -54,9 +54,7 @@ const FooterOne = () => {
                               <h4 className="mb-30 footer-title">Quick Links</h4>
                               <ul className="service-list">
                                  <li><Link to="/about">About Us</Link></li>
-                                 <li><Link to="/team">Our Team</Link></li>
-                                 <li><Link to="/services">Our Services</Link></li>
-                                 <li><Link to="/blog-grid">Latest Blog</Link></li>
+                                 <li><Link to="/blog-standard">Latest Blog</Link></li>
                                  <li><Link to="/contact">Contact Us</Link></li>
                               </ul>
                            </div>
@@ -65,14 +63,12 @@ const FooterOne = () => {
                            <div className="footer-widget-2 pl-50">
                               <h4 className="mb-30 footer-title">Our Services</h4>
                               <ul className="service-list">
-                                 <li><Link to="/service-details">Sewing textile materials</Link></li>
-                                 <li><Link to="/service-details">Laser cutting</Link></li>
-                                 <li><Link to="/service-details">Ultrasonic sewing</Link></li>
-                                 <li><Link to="/service-details">Plastics injection</Link></li>
+                                 <li><Link to="/services/industrial-textile-manufacturing">Industrial Textile Manufacturing</Link></li>
+                                 <li><Link to="/services/plastic-molding">Plastile Textile</Link></li>
                               </ul>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-4 pr-30">
                               <h4 className="mb-20 footer-title mb-30">Our Gallery</h4>
                               <div className="footer-gallery p-relative">
@@ -88,7 +84,7 @@ const FooterOne = () => {
                                  ))}
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>
