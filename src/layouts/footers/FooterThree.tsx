@@ -1,27 +1,27 @@
 import { Link } from "react-router-dom"
-import { JSX } from "react"
+// import { JSX } from "react"
 
-interface DataType {
-   id: number;
-   thumb: string;
-   title: JSX.Element;
-   date: string;
-}
+// interface DataType {
+//    id: number;
+//    thumb: string;
+//    title: JSX.Element;
+//    date: string;
+// }
 
-const latest_post_data: DataType[] = [
-   {
-      id: 1,
-      thumb: "/assets/imgs/blog/blog-s-1.jpg",
-      title: (<>Best Repairing <br /> soakage Roof..</>),
-      date: "05 Dec, 2024"
-   },
-   {
-      id: 2,
-      thumb: "/assets/imgs/blog/blog-s-2.jpg",
-      title: (<>Doing Things Currently..</>),
-      date: "05 Dec, 2024"
-   },
-];
+// const latest_post_data: DataType[] = [
+//    {
+//       id: 1,
+//       thumb: "/assets/imgs/blog/blog-s-1.jpg",
+//       title: (<>Best Repairing <br /> soakage Roof..</>),
+//       date: "05 Dec, 2024"
+//    },
+//    {
+//       id: 2,
+//       thumb: "/assets/imgs/blog/blog-s-2.jpg",
+//       title: (<>Doing Things Currently..</>),
+//       date: "05 Dec, 2024"
+//    },
+// ];
 
 const FooterThree = () => {
 

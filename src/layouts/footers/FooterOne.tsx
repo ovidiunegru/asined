@@ -14,10 +14,10 @@ const FooterOne = () => {
    const [open, setOpen] = useState(false)
    const [index, setIndex] = useState(0)
 
-   const handleOpen = (i: number) => {
-      setIndex(i)
-      setOpen(true)
-   }
+   // const handleOpen = (i: number) => {
+   //    setIndex(i)
+   //    setOpen(true)
+   // }
 
    const slides = gallery_data.map((img) => ({
       src: img,

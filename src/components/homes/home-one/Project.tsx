@@ -80,7 +80,7 @@ const Project = ({ style }: PropType) => {
             </div>
          </div>
          <div className="container-fluid">
-            <Swiper {...setting} modules={[Autoplay,Navigation]} className="swiper project-active-1" pagination={{ clickable: true }} ref={swiperRef}>
+            <Swiper {...setting} modules={[Autoplay,Navigation]} className="swiper project-active-1" pagination={{ clickable: true }}>
                {project_data.filter((items) => items.page === "home_1").map((item) => (
                   <SwiperSlide key={item.id} className="swiper-slide">
                      <div className="project-slider-two-box p-relative">
