@@ -50,15 +50,12 @@ const FooterThree = () => {
                            <div className="footer-widget-2 pl-50">
                               <h4 className="mb-20 footer-title">Our Services</h4>
                               <ul className="service-list">
-                                 <li><Link to="/service-details">Damage Roofing</Link></li>
-                                 <li><Link to="/service-details">Roof Repair</Link></li>
-                                 <li><Link to="/service-details">Roof Installation</Link></li>
-                                 <li><Link to="/service-details">Roof Animation</Link></li>
-                                 <li><Link to="/service-details">Modified Roofing</Link></li>
+                                 <li><Link to="/services/industrial-textile-manufacturing">Industrial Textile Manufacturing</Link></li>
+                                 <li><Link to="/services/plastic-molding">Plastic Molding</Link></li>
                               </ul>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-3">
                               <h4 className="mb-20 footer-title">Latest Post</h4>
                               <ul className="blog-list">
@@ -77,7 +74,7 @@ const FooterThree = () => {
                                  ))}
                               </ul>
                            </div>
-                        </div>
+                        </div> */}
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-4 pr-30">
                               <h4 className="mb-20 footer-title">Newsletter</h4>
