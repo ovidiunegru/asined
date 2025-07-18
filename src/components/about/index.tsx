@@ -2,7 +2,7 @@ import AboutHome from "../../components/homes/home-three/About"
 import BreadCrumb from "../common/BreadCrumb"
 import Choose from "../homes/home-three/Choose"
 import Process from "../homes/home-one/Process"
-import Team from "../homes/home-three/Team"
+// import Team from "../homes/home-three/Team"
 import Map from "./Map"
 import HeaderThree from "../../layouts/headers/HeaderThree"
 import FooterThree from "../../layouts/footers/FooterThree"
@@ -16,7 +16,7 @@ const About = () => {
             <AboutHome />
             <Choose />
             <Process style={false} />
-            <Team />
+            {/* <Team /> */}
             <Map />
             <FooterThree />
          </main>
