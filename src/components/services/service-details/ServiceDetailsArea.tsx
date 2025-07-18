@@ -11,6 +11,7 @@ interface DataType {
   desc_4: string;
   list: string[];
   image: string;
+  images?: string[]; // Optional array for multiple images
 }
 
 const services: { [key: string]: DataType } = {
@@ -40,7 +41,13 @@ const services: { [key: string]: DataType } = {
       "Custom mold development",
       "High-volume production",
     ],
-    image: "/assets/imgs/service/plastic-molding.jpg",
+    image: "/assets/imgs/service/750x479plasticmolding.png",
+    images: [
+      "/assets/imgs/service/750x479plasticmolding.png",
+      "/assets/imgs/service/750x479plasticmolding2.png",
+      "/assets/imgs/service/750x479plasticmolding3.png",
+      "/assets/imgs/service/750x479plasticmolding4.png",
+    ],
   },
 };
 
@@ -69,7 +76,11 @@ const ServiceDetailsArea = () => {
     desc_4,
     list,
     image,
+    images,
   } = services[selectedService];
+
+  // Use images array if available, otherwise fall back to single image
+  const serviceImages = images || [image, image, image, image];
 
   return (
     <section className="service-details-page section-space">
@@ -78,7 +89,7 @@ const ServiceDetailsArea = () => {
           <div className="col-xxl-8 col-xl-8 col-lg-8">
             <div className="service-details-page-content">
               <figure className="w-img">
-                <img src={image} alt="" />
+                <img src={serviceImages[2]} alt="" />
               </figure>
               <h3 className="service-details-title mt-45 mb-25">{title_1}</h3>
               <p className="mb-25">{desc_1}</p>
@@ -86,12 +97,12 @@ const ServiceDetailsArea = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <figure className="w-img">
-                    <img src={image} alt="" />
+                    <img src={serviceImages[0]} alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6">
                   <figure className="w-img">
-                    <img src={image} alt="" />
+                    <img src={serviceImages[1]} alt="" />
                   </figure>
                 </div>
               </div>
@@ -101,7 +112,7 @@ const ServiceDetailsArea = () => {
               <div className="row">
                 <div className="col-lg-7">
                   <figure className="w-img">
-                    <img src={image} alt="" />
+                    <img src={serviceImages[3]} alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-5">

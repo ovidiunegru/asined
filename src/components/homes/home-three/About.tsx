@@ -55,11 +55,11 @@ const About = () => {
                   <div className="about-us-image-area p-relative wow fadeInRight" data-wow-delay=".5s">
                      <div className="border-shape" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-6.png)` }}></div>
                      <figure className="image-1">
-                        <img src="/assets/imgs/about/about-1.jpg" alt="" />
+                        <img src="/assets/imgs/about/about-1-ai.png" alt="" />
                      </figure>
                      <div className="image-2-area">
                         <div className="image-2 p-relative">
-                           <img src="/assets/imgs/about/about-1.jpg" alt="" />
+                           {/* <img src="/assets/imgs/about/about-1.jpg" alt="" /> */}
                            <div className="play-btn">
                               <div className="video_player_btn">
                                  <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="popup-video"><i className="icon-play"></i></a>

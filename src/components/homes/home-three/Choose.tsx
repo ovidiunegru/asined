@@ -43,7 +43,7 @@ const { sub_title, title, feature_list } = choose_data;
 const Choose = () => {
    return (
       <section className="choose-section bg-color-1 section-space-top p-relative">
-         <div className="bg-image" style={{ backgroundImage: `url(/assets/imgs/bg/choose-bg.png)` }}></div>
+         <div className="bg-image" style={{ backgroundImage: `url(/assets/imgs/bg/choose-bg-ai.png)` }}></div>
          <div className="shape-image" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-15.png)` }}></div>
          <div className="small-container">
             <div className="row g-4">
@@ -69,7 +69,7 @@ const Choose = () => {
                </div>
                <div className="col-xxl-6 col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay="1.2s">
                   <figure className="image m-img">
-                     <img src="/assets/imgs/resources/choose-1.png" alt="" />
+                     <img src="/assets/imgs/resources/choose-1-ai.png" alt="" />
                   </figure>
                </div>
             </div>
