@@ -27,7 +27,13 @@ const services: { [key: string]: DataType } = {
       "Laser cutting textile materials",
       "Ultrasonic bonding",
     ],
-    image: "/assets/imgs/service/service-details-1.jpg",
+    image: "/assets/imgs/service/750x479textile.png",
+    images: [
+      "/assets/imgs/service/750x479textile2.png",
+      "/assets/imgs/service/750x479textile4.png",
+      "/assets/imgs/service/750x479textile.png",
+      "/assets/imgs/service/750x479textile3.png",
+    ],
   },
   "Plastic Molding": {
     title_1: "Our Plastic Molding Services",
