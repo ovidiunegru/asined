@@ -20,7 +20,7 @@ import AboutUsMain from '../pages/AboutUsMain';
 
 const AppNavigation = () => {
   return (
-    <Router>
+    <Router basename="/asined">
       <Routes>
         <Route path="/" element={<HomeMain />} />
         <Route path="/home-two" element={<HomeTwoMain />} />
