@@ -5,12 +5,8 @@
   "type": "module",
   "homepage": "https://ovidiunegru.github.io/asined",
   "scripts": {
-    "dev": "vite",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "tsc -b && vite build"
+    "build": "tsc -b && vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
