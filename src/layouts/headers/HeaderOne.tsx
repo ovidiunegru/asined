@@ -21,7 +21,7 @@ const HeaderOne = () => {
                         <div className="header-left">
                            <div className="header-logo">
                               <Link to="/">
-                                 <img src="/assets/imgs/logo/asined-logo.png" alt="header logo" />
+                                 <img src="/assets/imgs/logo/asined-logo-white.png" alt="header logo" />
                               </Link>
                            </div>
                         </div>
@@ -40,16 +40,6 @@ const HeaderOne = () => {
                                  </div>
                               </div>
                            </div>
-                           <div className="search-toggle-open header-search my-auto">
-                              <div onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-icon">
-                                 <i className="icon-search"></i>
-                              </div>
-                           </div>
-                           <div className="header-shopping-cart my-auto">
-                              <div className="cart-icon">
-                                 <Link to="#"><i className="icon-shopping-cart"></i></Link>
-                              </div>
-                           </div>
                            <div className="header-action d-none d-xl-inline-flex gap-5">
                               <div className="header-link">
                                  <Link className="primary-btn-1 btn-hover" to="/contact">
@@ -65,7 +55,7 @@ const HeaderOne = () => {
                                  </div>
                                  <div className="content">
                                     <span>Call Us Now</span>
-                                    <h6><Link to="tel:2085550112">+208-555-0112</Link></h6>
+                                    <h6><Link to="tel:2085550112">+40 722 411 446</Link></h6>
                                  </div>
                               </div>
                            </div>

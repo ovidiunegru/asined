@@ -21,7 +21,12 @@ const Count = ({ number }: CountType) => {
 
   return (
     <>
-      <CountUp start={0} end={focus ? number : 0} duration={2} decimals={number % 1 !== 0 ? 1 : 0}>
+      <CountUp
+        start={0}
+        end={focus ? number : 0}
+        duration={5}
+        decimals={number % 1 !== 0 ? 1 : 0}
+      >
         {({ countUpRef }) => (
           <>
             <span ref={countUpRef} />

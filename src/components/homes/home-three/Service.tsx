@@ -49,7 +49,7 @@ const Service = () => {
                <div className="col-xxl-6">
                   <div className="title-box mb-50 wow fadeInLeft" data-wow-delay=".5s">
                      <span className="section-sub-title">Our SERVICES</span>
-                     <h3 className="section-title mt-10">Best Roofing Services</h3>
+                     <h3 className="section-title mt-10">Best Textile & Plastic Services</h3>
                   </div>
                </div>
                <div className="col-xxl-6">

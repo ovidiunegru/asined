@@ -42,7 +42,7 @@ const Service = () => {
             <div className="service-3-title-box mb-50">
                <div className="title-box wow fadeInLeft" data-wow-delay=".5s">
                   <span className="section-sub-title no-border">Our SERVICES</span>
-                  <h3 className="section-title mt-10">Quality Roofing Services</h3>
+                  <h3 className="section-title mt-10">Quality Textile & Plastic Services</h3>
                </div>
                <div className="service_1_navigation__wrapprer position-relative z-1">
                   <div className="common-slider-navigation">

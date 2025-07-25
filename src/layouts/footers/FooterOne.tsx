@@ -3,10 +3,10 @@ import Lightbox from "yet-another-react-lightbox"
 import { useState } from "react"
 
 const gallery_data: string[] = [
-   "/assets/imgs/footer/footer-1.png",
-   "/assets/imgs/footer/footer-2.png",
-   "/assets/imgs/footer/footer-3.png",
-   "/assets/imgs/footer/footer-4.png",
+   "/assets/imgs/service/service-1.jpg",
+   "/assets/imgs/service/service-2.jpg",
+   "/assets/imgs/service/service-3.jpg",
+   "/assets/imgs/project/project-1.jpg",
 ];
 
 const FooterOne = () => {
@@ -14,10 +14,10 @@ const FooterOne = () => {
    const [open, setOpen] = useState(false)
    const [index, setIndex] = useState(0)
 
-   const handleOpen = (i: number) => {
-      setIndex(i)
-      setOpen(true)
-   }
+   // const handleOpen = (i: number) => {
+   //    setIndex(i)
+   //    setOpen(true)
+   // }
 
    const slides = gallery_data.map((img) => ({
       src: img,
@@ -35,12 +35,10 @@ const FooterOne = () => {
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-1">
                               <figure className="image">
-                                 <img src="/assets/imgs/logo/logo-white.svg" alt="" />
+                                 <img src="/assets/imgs/logo/asined-logo-white.png" alt="" />
                               </figure>
                               <p className="mt-40 mb-30">
-                                 Phasellus ultricies aliquam volutpat
-                                 ullamcorper laoreet neque, a lacinia
-                                 curabitur lacinia mollis
+                                 The Asined Automotive company is focusing its efforts towards designing and making a wide range of products with a utilitarian purpose, manufactured from industrial textile confections and plastics.
                               </p>
                               <div className="working-hours">
                                  <h6 className="text-white mb-20">Working Hours:</h6>
@@ -56,9 +54,7 @@ const FooterOne = () => {
                               <h4 className="mb-30 footer-title">Quick Links</h4>
                               <ul className="service-list">
                                  <li><Link to="/about">About Us</Link></li>
-                                 <li><Link to="/team">Our Team</Link></li>
-                                 <li><Link to="/services">Our Services</Link></li>
-                                 <li><Link to="/blog-grid">Latest Blog</Link></li>
+                                 <li><Link to="/blog-standard">Latest Blog</Link></li>
                                  <li><Link to="/contact">Contact Us</Link></li>
                               </ul>
                            </div>
@@ -67,15 +63,12 @@ const FooterOne = () => {
                            <div className="footer-widget-2 pl-50">
                               <h4 className="mb-30 footer-title">Our Services</h4>
                               <ul className="service-list">
-                                 <li><Link to="/service-details">Damage Roofing</Link></li>
-                                 <li><Link to="/service-details">Roof Repair</Link></li>
-                                 <li><Link to="/service-details">Roof Installation</Link></li>
-                                 <li><Link to="/service-details">Roof Animation</Link></li>
-                                 <li><Link to="/service-details">Modified Roofing</Link></li>
+                                 <li><Link to="/services/industrial-textile-manufacturing">Industrial Textile Manufacturing</Link></li>
+                                 <li><Link to="/services/plastic-molding">Plastile Textile</Link></li>
                               </ul>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-4 pr-30">
                               <h4 className="mb-20 footer-title mb-30">Our Gallery</h4>
                               <div className="footer-gallery p-relative">
@@ -91,7 +84,7 @@ const FooterOne = () => {
                                  ))}
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>

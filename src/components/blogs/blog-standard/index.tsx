@@ -8,7 +8,7 @@ const BlogStandard = () => {
     <>
       <HeaderThree />
       <main>
-         <BreadCrumb sub_title="Blog Standard" title="Blog Standard" />
+         <BreadCrumb sub_title="Blog Articles" title="Blog Articles" />
          <BlogArea />
       </main>
       <FooterThree />

@@ -6,7 +6,7 @@ const SEO = ({ pageTitle }: any) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{pageTitle} Gramen - Roofing Services React js Template</title>
+        <title>{pageTitle} Asined</title>
         <meta name="robots" content="noindex, follow" />
         <meta name="description" content="Zibber - Consulting React Template" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

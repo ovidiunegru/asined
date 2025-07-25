@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BlogSidebar from "../blog-sidebar";
+// import BlogSidebar from "../blog-sidebar";
 import BlogComments from "./BlogComments";
 import BlogForm from "../../forms/BlogForm";
 
@@ -94,7 +94,7 @@ const BlogDetailsArea = () => {
                      <BlogForm />
                   </div>
                </div>
-               <BlogSidebar />
+               {/* <BlogSidebar /> */}
             </div>
          </div>
       </section>

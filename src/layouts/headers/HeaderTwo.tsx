@@ -42,16 +42,6 @@ const HeaderTwo = () => {
                                  </div>
                               </div>
                            </div>
-                           <div className="search-toggle-open header-search my-auto">
-                              <div onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-icon">
-                                 <i className="icon-search"></i>
-                              </div>
-                           </div>
-                           <div className="header-shopping-cart my-auto">
-                              <div className="cart-icon">
-                                 <Link to="#"><i className="icon-shopping-cart"></i></Link>
-                              </div>
-                           </div>
                            <div className="header__hamburger d-xl-block my-auto">
                               <div className="sidebar__toggle">
                                  <a className="bar-icon" onClick={() => setOffCanvas(true)} style={{ cursor: "pointer" }}>

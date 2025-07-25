@@ -4,7 +4,7 @@ import HomeTwoMain from '../pages/HomeTwoMain';
 import HomeThreeMain from '../pages/HomeThreeMain';
 import DarkHomeMain from '../pages/DarkHomeMain';
 import AboutMain from '../pages/AboutMain';
-import ServiceMain from '../pages/ServiceMain';
+// import ServiceMain from '../pages/ServiceMain';
 import ServiceDetailsMain from '../pages/ServiceDetailsMain';
 import ProjectMain from '../pages/ProjectMain';
 import ProjectDetailsMain from '../pages/ProjectDetailsMain';
@@ -12,10 +12,11 @@ import TeamMain from '../pages/TeamMain';
 import TeamDetailsMain from '../pages/TeamDetailsMain';
 import FaqMain from '../pages/FaqMain';
 import BlogStandardMain from '../pages/BlogStandardMain';
-import BlogGridMain from '../pages/BlogGridMain';
+// import BlogGridMain from '../pages/BlogGridMain';
 import BlogDetailsMain from '../pages/BlogDetailsMain';
 import ContactMain from '../pages/ContactMain';
 import ErrorMain from '../pages/ErrorMain';
+import AboutUsMain from '../pages/AboutUsMain';
 
 const AppNavigation = () => {
   return (
@@ -26,17 +27,18 @@ const AppNavigation = () => {
         <Route path="/home-three" element={<HomeThreeMain />} />
         <Route path="/dark-home" element={<DarkHomeMain />} />
         <Route path="/about" element={<AboutMain />} />
-        <Route path="/services" element={<ServiceMain />} />
-        <Route path="/services-details" element={<ServiceDetailsMain />} />
+        {/* <Route path="/services" element={<ServiceMain />} /> */}
+        <Route path="/services/:serviceName" element={<ServiceDetailsMain />} />
         <Route path="/projects" element={<ProjectMain />} />
         <Route path="/project-details" element={<ProjectDetailsMain />} />
         <Route path="/team" element={<TeamMain />} />
         <Route path="/team-details" element={<TeamDetailsMain />} />
         <Route path="/faq" element={<FaqMain />} />
         <Route path="/blog-standard" element={<BlogStandardMain />} />
-        <Route path="/blog-grid" element={<BlogGridMain />} />
+        {/* <Route path="/blog-grid" element={<BlogGridMain />} /> */}
         <Route path="/blog-details" element={<BlogDetailsMain />} />
         <Route path="/contact" element={<ContactMain />} />
+        <Route path="/about-us" element={<AboutUsMain />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
     </Router>

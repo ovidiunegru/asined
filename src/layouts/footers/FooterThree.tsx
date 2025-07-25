@@ -1,27 +1,27 @@
 import { Link } from "react-router-dom"
-import { JSX } from "react"
+// import { JSX } from "react"
 
-interface DataType {
-   id: number;
-   thumb: string;
-   title: JSX.Element;
-   date: string;
-}
+// interface DataType {
+//    id: number;
+//    thumb: string;
+//    title: JSX.Element;
+//    date: string;
+// }
 
-const latest_post_data: DataType[] = [
-   {
-      id: 1,
-      thumb: "/assets/imgs/blog/blog-s-1.jpg",
-      title: (<>Best Repairing <br /> soakage Roof..</>),
-      date: "05 Dec, 2024"
-   },
-   {
-      id: 2,
-      thumb: "/assets/imgs/blog/blog-s-2.jpg",
-      title: (<>Doing Things Currently..</>),
-      date: "05 Dec, 2024"
-   },
-];
+// const latest_post_data: DataType[] = [
+//    {
+//       id: 1,
+//       thumb: "/assets/imgs/blog/blog-s-1.jpg",
+//       title: (<>Best Repairing <br /> soakage Roof..</>),
+//       date: "05 Dec, 2024"
+//    },
+//    {
+//       id: 2,
+//       thumb: "/assets/imgs/blog/blog-s-2.jpg",
+//       title: (<>Doing Things Currently..</>),
+//       date: "05 Dec, 2024"
+//    },
+// ];
 
 const FooterThree = () => {
 
@@ -35,7 +35,7 @@ const FooterThree = () => {
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-1">
                               <figure className="image">
-                                 <img src="/assets/imgs/logo/logo-white.svg" alt="" />
+                                 <img src="/assets/imgs/logo/asined-logo-white.png" alt="" />
                               </figure>
                               <p className="mt-40 mb-40">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
                               <div className="footer-socials">
@@ -50,15 +50,12 @@ const FooterThree = () => {
                            <div className="footer-widget-2 pl-50">
                               <h4 className="mb-20 footer-title">Our Services</h4>
                               <ul className="service-list">
-                                 <li><Link to="/service-details">Damage Roofing</Link></li>
-                                 <li><Link to="/service-details">Roof Repair</Link></li>
-                                 <li><Link to="/service-details">Roof Installation</Link></li>
-                                 <li><Link to="/service-details">Roof Animation</Link></li>
-                                 <li><Link to="/service-details">Modified Roofing</Link></li>
+                                 <li><Link to="/services/industrial-textile-manufacturing">Industrial Textile Manufacturing</Link></li>
+                                 <li><Link to="/services/plastic-molding">Plastic Molding</Link></li>
                               </ul>
                            </div>
                         </div>
-                        <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-3">
                               <h4 className="mb-20 footer-title">Latest Post</h4>
                               <ul className="blog-list">
@@ -77,7 +74,7 @@ const FooterThree = () => {
                                  ))}
                               </ul>
                            </div>
-                        </div>
+                        </div> */}
                         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className="footer-widget-4 pr-30">
                               <h4 className="mb-20 footer-title">Newsletter</h4>

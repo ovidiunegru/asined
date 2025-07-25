@@ -6,6 +6,8 @@ interface DataType {
    date: string;
    title: string;
    desc?: string;
+   tags?: string[];
+   category?: number,
 }
 
 const blog_data: DataType[] = [
@@ -42,8 +44,10 @@ const blog_data: DataType[] = [
       thumb: "/assets/imgs/blog/blog-8.jpg",
       author: "By Admin",
       date: "28 Nov, 2024",
-      title: "Doing Things Correctly Leads to Success",
-      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus."
+      title: "Industrial Textile Confection",
+      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus.",
+      tags: ["textile","confection"],
+      category: 1
    },
    {
       id: 2,
@@ -51,8 +55,10 @@ const blog_data: DataType[] = [
       thumb: "/assets/imgs/blog/blog-9.jpg",
       author: "By Admin",
       date: "28 Nov, 2024",
-      title: "Doing Things Correctly Leads to Success",
-      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus."
+      title: "Plastic Molding",
+      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus.",
+      tags: ["plastic","molding"],
+      category: 2
    },
    {
       id: 3,
@@ -60,8 +66,10 @@ const blog_data: DataType[] = [
       thumb: "/assets/imgs/blog/blog-10.jpg",
       author: "By Admin",
       date: "28 Nov, 2024",
-      title: "Doing Things Correctly Leads to Success",
-      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus."
+      title: "Sweing Textile Materials",
+      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus.",
+      tags: ["textile","sweing"],
+      category: 1
    },
    {
       id: 4,
@@ -69,8 +77,10 @@ const blog_data: DataType[] = [
       thumb: "/assets/imgs/blog/blog-9.jpg",
       author: "By Admin",
       date: "28 Nov, 2024",
-      title: "Doing Things Correctly Leads to Success",
-      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus."
+      title: "Plastic Injection",
+      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus.",
+      tags: ["plastic","injection"],
+      category: 2
    },
    {
       id: 5,
@@ -79,7 +89,8 @@ const blog_data: DataType[] = [
       author: "By Admin",
       date: "28 Nov, 2024",
       title: "Doing Things Correctly Leads to Success",
-      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus."
+      desc: "The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac platea habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus.",
+      tags: ["correct"]
    },
    {
       id: 6,

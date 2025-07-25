@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Count from "../../common/Count";
 
@@ -14,16 +13,16 @@ interface DataType {
 
 const about_data: DataType = {
    sub_title: "About Us",
-   title: "Devoted to Delivering Top Notch Roofing Solutions",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   title: "Tradition and Innovation in Industrial Textiles & Plastics",
+   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of products made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
    feature_list: [
       {
          id: 1,
-         list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+         list: ["Industrial textile confections", "Plastics injection"],
       },
       {
          id: 2,
-         list: ["300+ Successful Projects done", "Professional Engineers Provide", "Damage Roofing Repair"],
+         list: ["Custom product design", "Quality and reliability"],
       },
    ],
 }
@@ -44,18 +43,18 @@ const About = ({ style }: PropType) => {
                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                   <div className="about-2-image-area p-relative wow fadeInLeft" data-wow-delay="500ms">
                      <figure className="main-image m-img">
-                        <img src="/assets/imgs/about/about-3.jpg" alt="" />
+                        <img src="/assets/imgs/about/masina-de-cusut_resized.jpg" alt="" />
                      </figure>
                      <div className="small-image">
-                        <img src="/assets/imgs/about/about-4.jpg" alt="" />
+                        <img src="/assets/imgs/about/modling_resized.png" alt="" />
                      </div>
                      <div className="icon-box">
                         <div className="icon">
                            <i className="icon-prize-1"></i>
                         </div>
                         <div className="content">
-                           <h3 className="mb-10"><span className="counter"><Count number={10} /></span>+</h3>
-                           <p>World Best Roofing Award Got</p>
+                           <h3 className="mb-10"><span className="counter"><Count number={30} /></span>+</h3>
+                           <p>Years of Experience</p>
                         </div>
                      </div>
                      <div className="shape-1" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-29.png)` }}></div>
@@ -67,7 +66,7 @@ const About = ({ style }: PropType) => {
                         <span className="section-sub-title">{sub_title}</span>
                         <h3 className="section-title mt-10">{title}</h3>
                      </div>
-                     <p className="mb-35">{desc}</p>
+                     <p style={{fontSize:'20px'}} className="mb-35">{desc}</p>
                      <div className="row mb-45">
                         {feature_list.map((item) => (
                            <div key={item.id} className="col-lg-6">
@@ -90,7 +89,7 @@ const About = ({ style }: PropType) => {
                            </div>
                            <div className="content p-relative">
                               <span>Call Us Now</span>
-                              <h5><Link to="tel:2085550112">+208-555-0112</Link></h5>
+                              <h5><Link to="tel:+40722411446">+40 722 411 446</Link></h5>
                            </div>
                         </div>
                      </div>

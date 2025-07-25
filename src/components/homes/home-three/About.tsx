@@ -17,20 +17,20 @@ interface DataType {
 
 const about_data: DataType = {
    sub_title: "About Us",
-   title: "Devoted to Delivering Top Notch Roofing Solutions",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   title: "Tradition and Innovation in Industrial Textiles & Plastics",
+   desc: "Asined Automotive is a family business with tradition in the field of textile and plastics processing. We focus on designing and manufacturing a wide range of utilitarian products for protection, storage, and transport, made from industrial textile confections and plastics. Our experience and technological capabilities allow us to deliver quality, custom solutions for clients in Romania and abroad.",
    feature_list: [
       {
          id: 1,
-         icon: "icon-roof",
-         title: "Commercial Roofing",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         icon: "icon-factory",
+         title: "Industrial textile confections",
+         desc: "Products for protection, storage, and transport of goods and valuables.",
       },
       {
          id: 2,
-         icon: "icon-roof-9",
-         title: "Best Roofing Warranty",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         icon: "icon-box",
+         title: "Plastics molding",
+         desc: "Plastic parts for automotive, railway, and construction industries.",
       },
    ],
 }
@@ -55,11 +55,11 @@ const About = () => {
                   <div className="about-us-image-area p-relative wow fadeInRight" data-wow-delay=".5s">
                      <div className="border-shape" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-6.png)` }}></div>
                      <figure className="image-1">
-                        <img src="/assets/imgs/about/about-1.jpg" alt="" />
+                        <img src="/assets/imgs/about/about-1-ai.png" alt="" />
                      </figure>
                      <div className="image-2-area">
                         <div className="image-2 p-relative">
-                           <img src="/assets/imgs/about/about-1.jpg" alt="" />
+                           {/* <img src="/assets/imgs/about/about-1.jpg" alt="" /> */}
                            <div className="play-btn">
                               <div className="video_player_btn">
                                  <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="popup-video"><i className="icon-play"></i></a>
@@ -98,8 +98,8 @@ const About = () => {
                         </div>
                      ))}
                      <div className="about-btn-box wow fadeInLeft" data-wow-delay="1s">
-                        <Link className="primary-btn-1 btn-hover" to="/about">
-                           about us &nbsp; | <i className="icon-right-arrow"></i>
+                        <Link className="primary-btn-1 btn-hover" to="/about-us">
+                           read more &nbsp; | <i className="icon-right-arrow"></i>
                            <span style={{ top: "147.172px", left: "108.5px" }}></span>
                         </Link>
                      </div>

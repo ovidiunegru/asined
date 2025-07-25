@@ -17,11 +17,11 @@ const blog_data: DataType[] = [
       id: 1,
       page: "home_1",
       col: "col-xxl-8 col-xl-8 col-lg-12",
-      thumb: "/assets/imgs/blog/blog-4.jpg",
-      author: "By Admin",
-      date: "28 Nov, 2024",
-      title: "Rebecca's New Album Aid for the Needy",
-      desc: "Lorem ipsum dolor sit amet consectetur the adipiscing elit Morbi is sodales consequat"
+      thumb: "/assets/imgs/blog/blog_1_resized.jpg",
+      author: "By Asined",
+      date: "30 June, 2016",
+      title: "Asined Automotive participates at PackExpo 2016",
+      desc: "We were invited to participate with a product at PackExpo 2016 – The exhibition for the packaging industry and packaging solutions"
    },
    {
       id: 2,
@@ -30,8 +30,8 @@ const blog_data: DataType[] = [
       class: "d-block",
       author: "By Admin",
       date: "28 Nov, 2024",
-      title: "Rebecca's New Album Aid for the Needy",
-      desc: "Lorem ipsum dolor sit amet consectetur the adipiscing elit Morbi is sodales consequat"
+      title: "The story of a garment bag that circled the world",
+      desc: "To our surprise, as incredible as it is true, we get at the office of the Asined Automotive company ( office@asined.ro ) a letter fascinating from a passionate Romanian about our products"
    },
 ]
 
